@@ -37,6 +37,7 @@ eltárolja. Exportálhatod csv fájlokba és importálhatsz cdcat fájlokat.
 rm -rf $RPM_BUILD_ROOT
 %{__python} setup.py install \
 	--root $RPM_BUILD_ROOT
+install share/glade/gcatalog.png $RPM_BUILD_ROOT%{_datadir}/gnomecatalog/glade
 %find_lang %{name} --with-gnome --with-omf --all-name
 
 %clean
