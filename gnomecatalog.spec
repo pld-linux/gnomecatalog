@@ -24,8 +24,9 @@ can export to csv files and import cdcat files.
 %description -l hu.UTF-8
 CD-k és DVD-k katalogizálása. A dvd/cd-idet és fájljaidat
 katagerizálja a merevlemezedre. Bélyegképeket készít a fájlokból és
-azokat egy adatbázisba menti. Az mp3, avi és képek metainformációit is
-eltárolja. Exportálhatod csv fájlokba és importálhatsz cdcat fájlokat.
+azokat egy adatbázisba menti. Az mp3, avi és képfájlok
+metainformációit is eltárolja. Exportálhatod csv fájlokba és
+importálhatsz cdcat fájlokat.
 
 %prep
 %setup -q
