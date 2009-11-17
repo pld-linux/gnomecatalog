@@ -8,7 +8,9 @@ Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/project/gnomecatalog/%{name}-%{version}.tar.bz2
 # Source0-md5:	ab5d51e0bdc8bc14c1c4d34c9ca337d3
 URL:		http://www.gnomecatalog.org/
+BuildRequires:	gettext-devel
 BuildRequires:	python-devel
+BuildRequires:	rpm-pythonprov
 Requires:	python-gnome-ui
 Requires:	python-kaa-metadata
 Requires:	python-pygtk-gtk
